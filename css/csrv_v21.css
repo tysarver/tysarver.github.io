@@ -103,14 +103,7 @@
 	text-align: center;
 }
 .csButInColor1 {
-	background-image: url(../../img/randy.jpg);
-	height: 27px;
-	margin-top: 1px;
-	outline: none;
-	padding-top: 0px;
-	padding-left: 3px;
-	width: 40px;
-	vertical-align: top;
+	background-image: url(../img/randy.jpg);
 }
 .csButInColor2 {
 	background-color: #000000;
