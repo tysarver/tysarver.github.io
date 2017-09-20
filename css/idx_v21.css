@@ -119,7 +119,7 @@ textarea:focus, input:focus, select:focus {
 	width: 98%;
 }
 .vtLogonCntr {
-	color: #000000;
+	background color: #000000;
 	display: inline-block;
 	text-align: center;
 	width: 275px;
