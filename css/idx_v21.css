@@ -44,6 +44,9 @@ A:visited {
 
 */
 body {
+	background-image: url(../img/randy.jpg);
+	height: 600px;
+	width: 800px;
 	display: flex;
 	min-height: 100vh;
 	flex-direction: column;
