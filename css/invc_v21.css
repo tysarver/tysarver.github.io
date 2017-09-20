@@ -1,0 +1,445 @@
+.icDeptSel {
+	float: left;
+	font-size: 16px;
+	text-align: center;
+	color: #FFFFFF;
+}
+.icDeptNoSel {
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	appearance: none;
+	background-color: #003333;
+	border: none;
+	color: #EDEEF3;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 16px;
+	height: 26px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	text-align-last: center;
+	width: 160px;
+}
+.icLeftProdArrow {
+	background-image: url(../img/logo1.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 30px;
+	float: left;
+	margin: 0px 19px 0px 19px;
+	padding: 0px 0px 0px 0px;
+	width: 42px;
+}
+.icRightProdArrow {
+	background-image: url(../img/logo1.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 30px;
+	float: left;
+	margin: 0px 0px 0px 19px;
+	padding: 0px 0px 0px 0px;
+	width: 42px;
+}
+.sordDelDateTxt, .sordTemplateTxt, .stwTemplateTxt, .xferRecvFromTxt {
+	color: #D3E3FE;
+	font-size: 16px;
+	font-weight: bold;
+	margin: 10px 0px 10px 10px;
+	text-align: center;
+}
+.sordDelDateVal, .sordTemplateVal {
+	font-size: 18px;
+	text-align: center;
+	padding-bottom: 12px;
+}
+.stwTemplateVal {
+	font-size: 18px;
+	padding-bottom: 12px;
+	padding-left: 90px;
+}
+.sordTempRadBut, .stwTempRadBut {
+	margin: 8px 8px 8px 8px;
+}
+.sordDelDateEntry {
+	color: #FFF;
+	background-color: #003333;
+	font-size: 16px;
+}
+.phySelTxt {
+	color: #D3E3FE;
+	font-size: 16px;
+	font-weight: bold;
+	margin: 10px 0px 10px 10px;
+	text-align: center;
+}
+.phySelVal {
+	font-size: 18px;
+	padding-bottom: 12px;
+	padding-left: 100px;
+}
+.phySelRadBut {
+	margin: 6px 0px 6px 10px;
+}
+.xferEnterNo, .xferRouteIdTxt, .xferRouteNameTxt, .xferRoutePhoneTxt {
+	float: left;
+	margin-top: 3px;
+	margin-right: 6px;
+	font-size: 15px;
+	text-align: right;
+	color: #D3E3FE;
+	width: 70px;
+}
+.xferSelectLine {
+	padding-bottom: 2px;
+}
+.xferRouteIdSel {
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	appearance: none;
+	text-align: left;
+	color: #FFFFFF;
+	background-color: #003333;
+	border: none;
+	font-size: 16px;
+	margin-bottom: 2px;
+	width: 236px;
+}
+.xferRouteDat {
+	font-size: 15px;
+	text-align: left;
+	color: #FFFFFF;
+}
+.icPgrpNoSel2 {
+	width: 320px;
+}
+.icProdNoSel {
+	width: 274px;
+}
+.icProdNoSel2 {
+	width: 320px;
+}
+.icProdSel {
+	font-size: 16px;
+	text-align: left;
+	color: #FFFFFF;
+}
+.icPgrpDat {
+	font-size: 14px;
+	float: left;
+	color: #C5E2D5;
+	font-family: Tahoma, Geneva, sans-serif;
+	width: 226px;
+	background-color: #003333;
+	height: 26px;
+	padding: 0px;
+	margin-top: 1px;
+}
+.icPrevNextCont {
+	display: inline-block;
+	text-align: center;
+	height: 27px;
+}
+.icPrevEle, .icNextEle {
+	color: #FFF;
+	margin-left: 2px;
+	margin-right: 2px;
+	padding: 0px;
+	height: 100%;
+	font-size: 12px;
+	float: left;
+	width: 60px;
+}
+.icPrevEle {
+	background-color: #00002A;
+	text-align: center;
+}
+.icNextEle {
+	background-color: #002A2A;
+	text-align: center;
+}
+.icButOut {
+	float: left;
+	width: 64px;
+	margin-top: -3px;
+}
+.icButIn {
+	border-radius: 8px;
+	color: #333;
+	width: 60px;
+	height: 24px;
+	margin-top: 3px;
+	margin-right: 2px;
+	margin-bottom: 1px;
+	margin-left: 2px;
+	font-weight: bold;
+	text-align: center;
+}
+.icButInColor1 {
+	
+}
+.icButInColor2 {
+	
+}
+.icButInColor3 {
+	
+}
+.icButInColor4 {
+	
+}
+.icButInColor5 {
+	
+}
+.icButInColor6 {
+	
+}
+.icButInColor7 {
+	
+}
+.icButInColor8 {
+	
+}
+.icCntn {
+	font-size: 20px;
+	color: #FFF;
+	width: 320px;
+	margin-left: 1px;
+}
+.icPrgpCont {
+	padding-bottom: 4px;
+}
+.icPnumDat {
+	font-weight: bold;
+	width: 204px;
+	float: left;
+	vertical-align: middle;
+}
+.icPgrpBut {
+	border-radius: 8px;
+	float: left;
+	margin-left: 2px;
+	margin-right: 2px;
+	text-align: center;
+	vertical-align: middle;
+	width: 40px;
+}
+.icPgrpIn {
+	
+	border-radius: 8px;
+	font-size: 14px;
+	font-weight: bold;
+	height: 27px;
+	margin-top: 1px;
+	outline: none;
+	padding-top: 0px;
+	padding-left: 3px;
+	width: 40px;
+	vertical-align: top;
+}
+.icLeftLbl {
+	float: left;
+	width: 74px;
+}
+.icPrmoCont {
+	padding-bottom: 4px;
+}
+.icPrmoDat {
+	float: left;
+	font-weight: bold;
+}
+.icPrtyDat {
+	float: left;
+	font-weight: bold;
+}
+.icPrmoTxt {
+	float: left;
+	padding-left: 12px;
+}
+.icPramDat {
+	float: none;
+	padding-left: 6px;
+	font-weight: bold;
+}
+.icPrtlDat {
+	float: left;
+	font-weight: bold;
+	width: 90px;
+}
+.icPselTxt {
+	float: left;
+	padding-left: 10px;
+	padding-right: 6px;
+}
+.icPselDat {
+	font-weight: bold;
+}
+.icSelCsTxt {
+	float: left;
+	padding-left: 0px;
+	padding-right: 4px;
+}
+.icSelCsDat {
+	font-weight: bold;
+	float: left;
+	width: 48px;
+}
+.icSelUnTxt {
+	float: left;
+	padding-left: 14px;
+	padding-right: 4px;
+}
+.icSelUnDat {
+	font-weight: bold;
+}
+.icOnhCsTxt {
+	float: left;
+	padding-left: 0px;
+	padding-right: 4px;
+}
+.icOnhCsDat {
+	float: left;
+	font-weight: bold;
+	padding-right: 33px;
+}
+.icOnhUnTxt {
+	float: left;
+	padding-left: 12px;
+	padding-right: 6px;
+}
+.icOnhUnDat {
+	font-weight: bold;
+}
+.icTrkCsDat {
+	float: left;
+	font-weight: bold;
+	padding-right: 20px;
+	width: 30px;
+}
+.icTrkUnDat {
+	font-weight: bold;
+}
+.icHhdrTxt {
+	float: left;
+	width: 77px;
+	text-align: center;
+	text-decoration: underline;
+}
+.icHistSect {
+	overflow: auto;
+}
+.icHdayDat {
+	font-size: 16px;
+	float: left;
+	width: 40px;
+}
+.icHdteDat {
+	font-size: 16px;
+	float: left;
+	width: 40px;
+}
+.icHcasDat {
+	font-size: 16px;
+	float: left;
+	text-align: right;
+	width: 33px;
+	padding-right: 5px;
+}
+.icHuniDat {
+	font-size: 16px;
+	float: left;
+	text-align: left;
+	width: 33px;
+	padding-left: 5px;
+}
+.icHalfSpc {
+	height: 10px;
+}
+.icHendTxt {
+	width: 1px;
+	clear: both;
+}
+.icInp {
+	font-size: 18px;
+	background-color: #003333;
+	margin-top: -1px;
+	border: none;
+	border-width: 0px;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+.icInpSizPrc {
+	width: 90px;
+}
+.icInpSiz12 {
+	width: 130px;
+}
+.icInpSiz8 {
+	width: 100px;
+}
+.icInpSiz4 {
+	width: 48px;
+}
+.icInpSiz3 {
+	width: 32px;
+}
+.icRevHdr {
+	text-decoration: underline;
+	padding-bottom: 4px;
+}
+.icRevProdTxt {
+	float: left;
+	text-decoration: underline;
+	width: 60px;
+}
+.icRevDescTxt {
+	float: left;
+	text-decoration: underline;
+	width: 150px;
+}
+.icRevQtyTxt {
+	float: left;
+	text-decoration: underline;
+}
+.icRevDtl {
+	font-size: 14px;
+}
+.icRevProdDat {
+	float: left;
+	text-align: left;
+	width: 60px;
+}
+.icRevDescDat {
+	float: left;
+	text-align: left;
+	width: 150px;
+}
+.icRevCsDat {
+	float: left;
+	text-align: right;
+	width: 30px;
+}
+.icRevUnDat {
+	float: left;
+	text-align: right;
+	width: 30px;
+}
+.icRevTotDat {
+	float: left;
+	text-align: right;
+	width: 42px;
+}
+.icRevUnderLineSpc {
+	font-size: 6px;
+	float: left;
+	width: 210px;
+}
+.icRevUnderLineDat {
+	border-top-style: double;
+	float: left;
+	font-size: 2px;
+	text-align: right;
+	width: 102px;
+}
+.icPrintReq {
+	color: white;
+	text-align: center;
+	margin-top: 30px;
+}

@@ -1,0 +1,305 @@
+.enod_cntn {
+	font-size: 16px;
+	color: #FFF;
+	width: 320px;
+	margin-left: 1px;
+}
+.enod_odo_dep_tbl {
+	border-collapse: collapse;
+	font-size: 16px;
+	text-align: center;
+	margin: 0px 0px 18px 0px;	
+	width: 99%;
+}
+.enod_odo_dep_tbl th {
+	font-size: 16px;
+	font-variant: small-caps;
+	text-decoration: underline;
+	font-weight: normal;
+}
+
+.enod_sect_hdr {
+	font-size: 20px;
+	text-align: center;
+	color: #D3E3FE;
+	width: 320px;
+	padding: 6px 0px 0px 0px;
+}
+
+.enod_amt_input {
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	appearance: none;
+	text-align: center;
+	color: #FFFFFF;
+	background-color: #003333;
+	border: none;
+	font-size: 16px;
+	margin-bottom: 2px;
+	width: 80px;
+}
+
+
+/* Transaction Tables  */
+.enod_sls_sum_table {
+	border-collapse: collapse;
+	font-size: 12px;
+	width: 100%;
+	text-align: right;
+}
+.enod_sls_sum_table th {
+/*	color: #006 */
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	font-variant: small-caps;
+	font-size: 14px;
+	text-align: center;
+}
+/* Transaction Table Header */
+.enod_sls_sum_table th:nth-child(2) {
+	padding-left: 2px;
+	text-align: left;
+}
+
+.enod_sls_sum_table th:nth-child(4),
+.enod_sls_sum_table th:nth-child(7),
+.enod_sls_sum_table th:nth-child(10),
+.enod_sls_sum_table th:nth-child(13),
+.enod_sls_sum_table th:nth-child(16),
+.enod_sls_sum_table td:nth-child(4),
+.enod_sls_sum_table td:nth-child(7),
+.enod_sls_sum_table td:nth-child(10),
+.enod_sls_sum_table td:nth-child(13),
+.enod_sls_sum_table td:nth-child(16)
+{
+	padding: 0px 6px 0px 0px;
+}
+.enod_sls_sum_dtl {
+	line-height: 12px;
+}
+
+.enod_sls_sum_xact_tot {
+	text-align: center;
+	border-top-width: 2px;
+	border-top-style: solid;
+}
+.enod_sls_sum_xact_tot td:nth-child(1) {
+   padding-top: 5px; 
+}
+
+
+
+.enod_doc_reg_table {
+	border-collapse: collapse;
+	font-size: 12px;
+	width: 100%;
+	text-align: right;
+}
+.enod_doc_reg_table th, .enod_dep_rpt_table th {
+/*	color: #006 */
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	font-variant: small-caps;
+	font-size: 14px;
+	text-align: right;
+}
+/* Transaction Table Header */
+.enod_doc_reg_table th:nth-child(1) {
+	width: 80px;
+}
+
+.enod_doc_reg_table td:nth-child(1) {
+	padding: 0px 8px 0px 0px;
+}
+
+
+
+.enod_doc_sum_table {
+	border-collapse: collapse;
+	font-size: 12px;
+	width: 60%;
+	text-align: right;
+}
+.enod_doc_sum_table th, .enod_dep_rpt_table th {
+/*	color: #006 */
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	font-variant: small-caps;
+	font-size: 14px;
+	text-align: right;
+}
+/* Transaction Table Header */
+.enod_doc_sum_table th:nth-child(1) {
+	width: 80px;
+}
+
+.enod_doc_sum_table td:nth-child(1) {
+	padding: 0px 8px 0px 0px;
+}
+
+.enod_doc_sum_dtl {
+	line-height: 12px;
+}
+.enod_doc_sum_xtrl {
+  font-weight: bold;
+  border-top-style: solid;
+  border-top-width: thin;
+  border-bottom-style: double;
+  border-bottom-width: medium;
+ }
+.enod_doc_sum_dtrl {
+	font-variant: small-caps;
+	line-height: 24px;
+	text-align:center;
+}
+
+
+.enod_dep_rpt_table {
+	border-collapse: collapse;
+	font-size: 12px;
+	width: 70%;
+	text-align: right;
+}
+
+.enod_dep_rpt_table td:nth-child(2), .enod_dep_rpt_table th:nth-child(2) {
+	text-align: left;
+	padding: 0px 0px 0px 20px;
+}
+
+
+.enod_doc_reg_dtl {
+	line-height: 12px;
+}
+.enod_doc_reg_xtrl {
+	font-weight:bold;
+}
+.enod_doc_reg_dtrl {
+	font-variant: small-caps;
+	line-height: 24px;
+}
+enod_dep_rpt_dtl {
+	line-height: 12px;
+}
+
+.enod_doc_reg_xact_tot {
+	text-align: center;
+	border-top-width: 2px;
+	border-top-style: solid;
+}
+.enod_doc_reg_xact_tot td:nth-child(1) {
+	padding-top: 5px; 
+}
+
+.enod_dep_exp_txt,
+.enod_dep_tot_csh_txt,
+.enod_dep_exp_amt,
+.enod_dep_tot_csh_amt
+{
+	padding-top: 8px; 
+}
+
+.enod_dep_dif_txt,
+.enod_dep_tot_dep_txt,
+.enod_dep_dif_amt,
+.enod_dep_tot_dep_amt
+{
+	font-weight: bold;
+	border-top-style: double;
+}
+.enod_dep_sub_txt,
+.enod_dep_sub_amt
+.enod_dep_tot_csh_txt,
+.enod_dep_tot_csh_amt
+{
+	padding-bottom: 4px;
+}
+
+
+.enod_cap_mil_table, .enod_cap_sum_table, .enod_cap_exp_table {
+	border-collapse: collapse;
+	font-size: 12px;
+	text-align: right;
+	line-height: 18px;
+}
+
+.enod_cap_mil_table {
+	width: 90%;
+}
+.enod_cap_mil_table td:nth-child(2), .enod_cap_mil_table td:nth-child(4), .enod_cap_mil_table td:nth-child(6){
+  text-align: left;
+}
+.enod_cap_mil_table td{
+  padding: 8px 0px 0px 8px;
+}
+.enod_cap_sum_table, .enod_cap_exp_table {
+	width: 60%;
+}
+
+.enod_cap_sum_table th, .enod_cap_exp_table th {
+/*	color: #006 */
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	font-variant: small-caps;
+	font-size: 14px;
+	text-align: right;
+}
+
+.enod_cap_sum_table td:nth-child(1) {
+	width: 25%;
+}
+.enod_cap_sum_table td:nth-child(2), .enod_cap_sum_table th:nth-child(2) {
+	text-align: left;
+}
+.enod_cap_sum_table td:nth-child(3) {
+	width: 80px;
+}
+.enod_cap_sum_table td:nth-child(4) {
+	width: 25%;
+}
+
+
+.enod_cap_sum_grp_txt, .enod_cap_sum_grp_amt {
+  font-weight: bold;
+}
+.enod_cap_sum_grp_amt, .enod_cap_sum_trl_amt {
+  border-top-style: double;
+}
+
+.enod_cap_sum_trl_txt, .enod_cap_sum_trl_amt {
+  padding-top: 14px;
+  font-size: 14px;
+  font-variant: small-caps;
+}
+
+
+.enod_cap_hdr, .enod_cap_xhdr {
+/*  color: #004000; */
+  font-weight: bold;
+  padding-top: 20px;
+  text-align: center;
+ }
+
+.enod_cap_hdr {
+  font-size: 18px;
+ }
+
+.enod_cap_xhdr {
+  font-size: 14px;
+ }
+
+.enod_cap_mil_dtl {
+}
+
+.enod_cap_trl {
+  clear: both;
+  margin: 80px 16px 0px 0px;
+  width: 100%;
+}

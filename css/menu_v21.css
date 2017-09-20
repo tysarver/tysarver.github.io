@@ -1,0 +1,90 @@
+
+.mmniCntn {
+  	font-size: 20px;
+	color: #FFF;
+	width: 320px;
+	margin-left: 1px;
+}
+.mmniInfoColLeft{
+	float:left;
+	width:160px;
+	margin-bottom: 10px;
+}
+.mmniInfoColRight{
+	margin-bottom: 10px;
+}
+.mmniStatSpace{
+	line-height: 10px;
+}
+.mmniInfoColBoth{
+	float: none;
+	width:320px;
+	margin-bottom: 10px;
+}
+.mmniStatTxtLeft {
+	float: left;
+	margin-right: 4px;
+	font-size: 14px;
+	color: #D3E3FE;
+	width: 80px;
+}
+.mmniStatDatRight{
+	font-size: 14px;
+	text-align: left;
+	color: #FFFFFF;
+}
+.mmniStat1stRight{
+	float:left;
+	font-size: 14px;
+	text-align: left;
+	color: #FFFFFF;
+	width:80px;	
+}
+.mmniStat2ndRight{
+	font-size: 14px;
+	text-align: left;
+	color: #FFFFFF;
+}
+.mmnsStat2ndRight{
+	font-size: 14px;
+	text-align: left;
+	color: #FFFFFF;
+}
+.mmnsStatTxtLeft {
+	float: left;
+	margin-right: 4px;
+	font-size: 14px;
+	text-align: right;
+	color: #D3E3FE;
+	width: 80px;
+}
+.mmnsStatDatRight{
+	font-size: 14px;
+	text-align: left;
+	color: #FFFFFF;
+}
+.mmniEntColLeft{
+	float:left;
+	width:160px;
+	line-height: 21px;
+}
+.mmnsEntTxtLeft {
+	float: left;
+	font-size: 14px;
+	text-align: right;
+	color: #D3E3FE;
+	width: 80px;
+	margin: 0px 4px 7px 0px;	
+}
+.mmniEntDatRight{
+	font-size: 14px;
+	margin: 0px 0px 4px 0px;
+	text-align: left;
+	color: #FFFFFF;
+}
+.mmnsNumEntry8 {
+	background-color: #003333;
+	border-width: 1px;
+  	color: #EDEEF3;
+	width: 64px;
+}

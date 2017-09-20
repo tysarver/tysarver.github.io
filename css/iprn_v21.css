@@ -1,0 +1,208 @@
+.iprn_co_hdr_table {
+	border-collapse: collapse;
+	width: 100%;
+	text-align: center;
+}
+/* Top Banner */
+.iprn_co_hdr_table td:nth-child(1) {
+}
+.iprn_co_hdr_table td:nth-child(2) {
+/*	color: #00C; */
+	font-family: Tahoma, Geneva, sans-serif;
+}
+.iprn_co_hdr_txt1_co {
+	font-size: 22px;
+}
+.iprn_co_hdr_txt1_dist {
+	font-size: 18px;
+	font-variant: small-caps;
+}
+.iprn_co_hdr_table td:nth-child(3) {
+	font-size: 10px;
+}
+.iprn_co_hdr_table td:nth-child(4) {
+}
+.iprn_sls_hdr_table {
+/*	border-bottom-color: #CCC; */
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-collapse: collapse;
+/*	border-top-color: #CCC; */
+	border-top-style: solid;
+	border-top-width: 1px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	margin: 4px 0px 4px 0px;
+	text-align: left;
+	width: 100%;
+}
+.iprn_sls_hdr_table td:nth-child(2), .iprn_sls_hdr_table td:nth-child(5), .iprn_sls_hdr_table td:nth-child(8) {
+	font-weight: bold;
+	text-align: right;
+}
+.iprn_sls_hdr_table td:nth-child(11) {
+	text-align: right;
+}
+.iprn_cst_hdr_table {
+	border-collapse: collapse;
+	text-align: left;
+	width: 100%;
+}
+.iprn_cst_hdr_table th:nth-child(2) {
+	font-weight: normal;
+}
+.iprn_cst_hdr_table th:nth-child(3) {
+	line-height: 24px;
+	vertical-align: middle;
+}
+/* Invoice Number Line */
+
+
+/* Customer Info Left Box*/
+.iprn_cst_cont {
+	clear: both;
+}
+.iprn_cst_cont_left {
+	float: left;
+	width: 610px;
+}
+/* Invoice Info Right Box*/
+.iprn_cst_cont_right {
+	float: left;
+}
+/* Transaction Header */
+
+/* Transaction Table  */
+.iprn_xact_table {
+	border-collapse: collapse;
+	width: 100%;
+	text-align: right;
+}
+.iprn_xact_table th {
+/*	color: #006 */
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	font-variant: small-caps;
+	font-size: 14px;
+}
+/* Transaction Table Header */
+.iprn_xact_table th:nth-child(2) {
+	padding-left: 12px;
+	text-align: left;
+}
+/*	Group Header Lines	*/
+.iprn__grp_txt {
+	text-align: left;
+	font-weight: bold;
+}
+/*	Detail Lines	*/
+.iprn__dtl {
+}
+.iprn__dtl td:nth-child(2) {
+	padding-left: 12px;
+	text-align: left;
+}
+/*	Promo Lines	*/
+.iprn__prmo td:nth-child(1) {
+/*	color: #030; */
+	font-weight: bold;
+	font-size: 12px;
+}
+/*	Group Total Lines	*/
+.iprn__grp_tot {
+	font-size: 14px;
+	font-weight: bold;
+	text-align: right;
+}
+.iprn__grp_tot td:nth-child(1) {
+	padding-bottom: 8px;
+	text-align: left;
+}
+/*	Transaction Total Lines	*/
+.iprn__xact_tot {
+	text-align: right;
+}
+tr.iprn__xact_tot td {
+	border-top-width: 2px;
+	border-top-style: solid;
+}
+.iprn__xact_tot td:nth-child(1) {
+	text-align: left;
+}
+.iprn__inv_tot td:nth-child(2) {
+	text-align: left;
+	padding-left: 6px;
+}
+.iprn__inv_tot td:nth-child(4) {
+	text-align: left;
+	padding-left: 6px;
+}
+/* Signatures / Trailer */
+.iprn_trl_cont {
+	clear: both;
+	margin: 50px 10px 0px 0px;
+	width: 100%;
+}
+.iprn_trl_cont_left {
+	float: left;
+	width: 400px;
+}
+.iprn_trl_cont_right {
+	float: right;
+}
+/* Signatures / Trailer */
+.iprn_trl_cont {
+	clear: both;
+	margin: 50px 10px 0px 0px;
+	width: 100%;
+}
+#i_iprn_trl_deliver {
+	border-top-width: 2px;
+	border-top-style: solid;
+	margin: 0px 115px 40px 5px;
+	width: 340px;
+	float: left;
+}
+#i_iprn_trl_receive {
+	border-top-width: 2px;
+	border-top-style: solid;
+	width: 340px;
+	float: left;
+}
+
+.iprn_phy_inv_table {
+	border-collapse: collapse;
+	font-size: 12px;
+	width: 100%;
+	text-align: right;
+}
+.iprn_phy_inv_table th {
+/*	color: #006 */
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	font-variant: small-caps;
+	font-size: 14px;
+	text-align: center;
+}
+/* Transaction Table Header */
+.iprn_phy_inv_table th:nth-child(2) {
+	padding-left: 2px;
+	text-align: left;
+}
+
+.iprn_phy_inv_dtl {
+	line-height: 12px;
+}
+
+.iprn_phy_inv_xact_tot {
+	text-align: center;
+	border-top-width: 2px;
+	border-top-style: solid;
+}
+.iprn_phy_inv_xact_tot td:nth-child(1) {
+   padding-top: 5px; 
+}

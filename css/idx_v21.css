@@ -1,0 +1,290 @@
+@charset "utf-8";
+/* CSS Document */
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+ -webkit-appearance: none;
+ margin: 0;
+}
+input[type="text"] {
+	/*	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box; */
+	-moz-appearance: textfield;
+	box-sizing: border-box;
+}
+input[type="number"] {
+	/*	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box; */
+	-moz-appearance: textfield;
+	box-sizing: border-box;
+}
+input[name="compid"], input[name="userid"], input[name="pswrd"] {
+	border-width: 2px;
+	padding: 2px;
+}
+form input {
+	border-width: 0px;
+	padding: 0;
+	margin: 0;
+}
+A:active {
+	color: #2A7F55;
+	text-decoration: none
+}
+A:hover {
+	font-weight: bolder
+}
+A:link {
+	text-decoration: none;
+	color: #2A3FFF;
+}
+A:visited {
+	text-decoration: none;
+	color: #D40055;
+}
+/*
+
+*/
+body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+	font-size: 18px;
+	font-style: normal;
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	width: 100%;
+  	background-image: url(../img/logo1.png);
+}
+.HdrDiv {
+  position: absolute;
+  top:0px;
+  left:0px;
+  height: 52px;
+  right:0px;
+  overflow:hidden;
+}
+.HdrBar {
+	height: 24px;
+	color: #000000;
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	padding: 1px 1px 1px 1px;
+}
+.NavBar {
+	width: 320px;
+}
+.MidDiv {
+  position: absolute;
+  top: 52px;
+  bottom: 22px;
+  left: 0px;
+  right: 0px;
+  overflow: auto;
+ }
+.MainDiv {
+	flex: 1;
+}
+.TrlDiv {
+  position: absolute;
+  bottom: 0px;
+/*  height: 19px; */
+  left: 0px;
+  right: 0px;
+  overflow: hidden;
+}
+
+#i_cprnDiv {
+	display: none;
+}
+ @media print {
+#i_HdrDiv {display: none;}
+#i_MidDiv {display: none;}
+#i_TrlDiv {display: none;}
+#i_cprnDiv {display: block;
+	font-family: verdana, arial, sans-serif;
+	font-size: 16px;
+	width: 8.4in;}
+}
+
+
+
+textarea:focus, input:focus, select:focus {
+	outline: none;
+}
+.cntr100 {
+	width: 98%;
+}
+.vtLogonCntr {
+	
+	display: inline-block;
+	text-align: center;
+	width: 275px;
+	border: groove;
+	padding: 20px;
+	margin: auto;
+}
+.vtLogonTxt {
+	float: left;
+	color: #000000;
+	text-align: right;
+	width: 80px;
+}
+.vtLoadInitVal {
+	text-align: center;
+	color: #000000;
+	margin-top: 8px;
+}
+.DataBox {
+	margin: 0;
+}
+.MidSpin {
+	width: 320px;
+	text-align: center;
+	vertical-align: middle;
+}
+.SectHdr {
+	text-align: center;
+	font-size: 18px;
+	font-weight: bolder;
+	color: #000000;
+	clear: both;
+	width: 320px;
+}
+.SectSubHdr {
+	font-size: 18px;
+	text-align: center;
+	color: #909;
+	border-bottom-width: thin;
+	border-bottom-style: dotted;
+	border-bottom-color: #909;
+	width: 320px;
+	margin-bottom: 2px;
+	padding-bottom: 2px;
+}
+.ButBox {
+	text-align: center;
+	vertical-align: top;
+}
+.NoButOut {
+	float: left;
+	width: 64px;
+}
+.NavButOut {
+	float: left;
+	width: 64px;
+	margin-top: -3px;
+}
+.NavButIn {
+	border-radius: 8px;
+	width: 60px;
+	height: 24px;
+	margin-left: 2px;
+	font-weight: bold;
+
+}
+.NavButDrop {
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	appearance: none;
+	
+	border-color: #0F0;
+	border-radius: 3px;
+	border-style: groove;
+	color: #333;
+	font-weight: bold;
+	height: 24px;
+	margin-bottom: 1px;
+	margin-left: 2px;
+	margin-right: 2px;
+  /* margin-top: 3px; */
+	text-align-last: center;
+	width: 60px;
+}
+.PageNum {
+	margin: 0;
+}
+.OneButLine {
+	clear: both;
+	float: none;
+	padding-top: 6px;
+	text-align: center;
+	width: 318px;
+}
+.PayMethAlert {
+	color: #0F0;
+	text-align: center;
+}
+.OneBigButton {
+	border-radius: 8px;
+	color: #0f0;
+	width: 140px;
+	height: 32px;
+	display: block;
+	margin: auto;
+	font-weight: bold;
+
+}
+.MidButton1 {
+	float:left;
+	border-radius: 8px;
+	width: 90px;
+	height: 32px;
+	margin: 0px 0px 0px 42px;
+	font-weight: bold;
+	
+}
+.MidButton2 {
+	border-radius: 8px;
+	width: 90px;
+	height: 32px;
+	font-weight: bold;
+	
+}
+.OnOffLine {
+	float: left;
+	font-size: 12px;
+	font-weight: bold;
+	width: 10px;
+	background-color: green;
+	padding: 0px 0px 0px 3px;
+	height: 16px;
+}
+.StatLine {
+/* 	clear: both;
+	float: none; */
+	
+	color: #909;
+	left: 0px;
+	bottom: 0px;
+	font-size: 14px;
+	text-align: right;
+}
+.NYI {
+	clear: both;
+	float: none;
+	color: #911;
+	width: 320px;
+	text-align: center;
+}
+.vtLogBut {
+	padding: 6px 6px 6px 6px;
+	border-radius: 3px;
+	border-width: 2px;
+	font-weight: bolder;	
+}
+.vtLogonStat {
+	width: 100%;
+	color: #911;
+	font-size: smaller;
+}
+.dispDump {
+	background-color: #912536;
+}
+.dispDump th {
+	font-size: 12px;
+}
+.dispDump td {
+	font-size: xx-small;
+}

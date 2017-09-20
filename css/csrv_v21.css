@@ -1,0 +1,755 @@
+.csPgrpSel {
+	font-size: 16px;
+	text-align: left;
+	color: #FFFFFF;
+}
+.csPgrpNoSel, .csPgrpNoSel2, .csProdNoSel, .csProdNoSel2 {
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	appearance: none;
+	background-color: #003333;
+	border: none;
+	color: #EDEEF3;
+	float: left;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 16px;
+	height: 26px;
+	margin-top: 1px;
+	padding: 0px;
+}
+.csDeptNoSel {
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	appearance: none;
+	background-color: #003333;
+	border: none;
+	color: #EDEEF3;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 16px;
+	height: 26px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	text-align-last: center;
+	width: 260px;
+}
+.csPgrpNoSel {
+	width: 274px;
+}
+.csPgrpNoSel2 {
+	width: 320px;
+}
+.csProdNoSel {
+	width: 274px;
+}
+.csProdNoSel2 {
+	width: 320px;
+}
+.csDeptSel {
+	font-size: 16px;
+	text-align: center;
+	color: #FFFFFF;
+}
+.csProdSel {
+	font-size: 16px;
+	text-align: left;
+	color: #FFFFFF;
+}
+.csPgrpDat {
+	font-size: 14px;
+	float: left;
+	color: #C5E2D5;
+	font-family: Tahoma, Geneva, sans-serif;
+	width: 226px;
+	background-color: #003333;
+	height: 26px;
+	padding: 0px;
+	margin-top: 1px;
+}
+.csPrevNextCont {
+	display: inline-block;
+	text-align: center;
+	height: 27px;
+}
+.csPrevEle, .csNextEle {
+	color: #FFF;
+	margin-left: 2px;
+	margin-right: 2px;
+	padding: 0px;
+	height: 100%;
+	font-size: 12px;
+	float: left;
+	width: 60px;
+}
+.csPrevEle {
+	background-color: #00002A;
+	text-align: center;
+}
+.csNextEle {
+	background-color: #002A2A;
+	text-align: center;
+}
+.csButOut {
+	float: left;
+	width: 64px;
+	margin-top: -3px;
+}
+.csButIn {
+	border-radius: 8px;
+	width: 60px;
+	height: 24px;
+	margin-right: 2px;
+	margin-left: 2px;
+	font-weight: bold;
+	text-align: center;
+}
+.csButInColor1 {
+	background-image: url(../img/logo1.png);
+}
+.csButInColor2 {
+	background-image: url(../img/logo1.png);
+}
+.csButInColor3 {
+	background-image: url(../img/logo1.png);
+}
+.csButInColor4 {
+	background-image: url(../img/logo1.png);
+}
+.csButInColor5 {
+	background-image: url(../img/logo1.png);
+}
+.csButInColor6 {
+	background-image: url(../img/logo1.png);
+}
+.csButInColor7 {
+	background-image: url(../img/logo1.png);
+}
+.csButInColor8 {
+	background-image: url(../img/logo1.png);
+}
+.csCntn {
+	font-size: 20px;
+	color: #FFF;
+	width: 320px;
+	margin-left: 1px;
+}
+.csProdCont, .csPrgpCont, .csPnumCont, .csHHdrCont {
+	clear: both;
+	padding-bottom: 4px;
+}
+.csHHdrCont {
+	color: #D3E3FE;
+	text-decoration: underline;
+}
+.csRetlCont, .csOnhCont, .csTrkCont, .csSlsCont {
+	clear: both;
+	padding-bottom: 4px;
+}
+.csPnumDat {
+	font-weight: bold;
+	width: 174px;
+	float: left;
+	vertical-align: middle;
+}
+.csPgrpBut {
+	border-radius: 8px;
+	float: left;
+	margin-left: 2px;
+	margin-right: 2px;
+	text-align: center;
+	vertical-align: middle;
+	width: 40px;
+}
+.csPgrpIn {
+	background-image: url(../img/randy.jpg);
+	border-radius: 8px;
+	font-size: 14px;
+	font-weight: bold;
+	height: 27px;
+	margin-top: 1px;
+	outline: none;
+	padding-top: 0px;
+	padding-left: 3px;
+	width: 40px;
+	vertical-align: top;
+}
+.csLeftLbl {
+	float: left;
+	width: 82px;
+}
+.csPrmoCont {
+	padding-bottom: 4px;
+}
+.csPrmoTxt {
+	float: left;
+	width: 64px;
+}
+.csPrmoDat {
+	float: left;
+}
+.csPtypDat {
+	float: left;
+	padding-left: 12px;
+}
+.csPamtDat {
+	float: left;
+	padding: 0px 12px 0px 4px;
+}
+.csPlvlDat {
+	float: none;
+}
+.csPrtlDat {
+	float: left;
+	font-weight: bold;
+	width: 90px;
+}
+.csPselTxt {
+	float: left;
+	padding-left: 10px;
+	padding-right: 6px;
+}
+.csPselDat {
+	font-weight: bold;
+}
+.csSelCsTxt {
+	float: left;
+	padding-left: 0px;
+	padding-right: 4px;
+}
+.csSelCsDat {
+	font-weight: bold;
+	float: left;
+	width: 48px;
+}
+.csSelUnTxt {
+	float: left;
+	padding-left: 14px;
+	padding-right: 4px;
+}
+.csSelUnDat {
+	font-weight: bold;
+}
+.csOnhCsTxt {
+	float: left;
+	padding-left: 0px;
+	padding-right: 4px;
+}
+.csOnhCsDat {
+	float: left;
+	font-weight: bold;
+	padding-right: 33px;
+}
+.csOnhUnTxt {
+	float: left;
+	padding-left: 12px;
+	padding-right: 6px;
+}
+.csOnhUnDat {
+	font-weight: bold;
+}
+.csTrkCsDat {
+	float: left;
+	font-weight: bold;
+	padding-right: 20px;
+	width: 30px;
+}
+.csTrkUnDat {
+	font-weight: bold;
+}
+.csHhdrTxt {
+	float: left;
+	width: 77px;
+	text-align: center;
+	text-decoration: underline;
+}
+.csHhdrTxtEnd {
+	text-align: center;
+	text-decoration: underline;
+}
+.csHistSect {
+	overflow: auto;
+}
+.csHdayDat {
+	font-size: 16px;
+	float: left;
+	width: 40px;
+}
+.csHdteDat {
+	font-size: 16px;
+	float: left;
+	width: 40px;
+}
+.csHcasDat {
+	font-size: 16px;
+	float: left;
+	text-align: right;
+	width: 33px;
+	padding-right: 5px;
+}
+.csHuniDat {
+	font-size: 16px;
+	float: left;
+	text-align: left;
+	width: 33px;
+	padding-left: 5px;
+}
+.csHalfSpc {
+	height: 10px;
+}
+.csHendTxt {
+	width: 1px;
+	clear: both;
+}
+.csInp {
+	font-size: 18px;
+	background-color: #003333;
+	margin-top: -1px;
+	border: none;
+	border-width: 0px;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+.csInpSizPrc {
+	width: 90px;
+}
+.csInpSiz12 {
+	width: 130px;
+}
+.csInpSiz8 {
+	width: 100px;
+}
+.csInpSiz4 {
+	width: 48px;
+}
+.csInpSiz3 {
+	width: 32px;
+}
+.csGrCsIn {
+	background-color: #003333;
+	border-width: 0px;
+	border: none;
+	color: #FFFFFF;
+	float: left;
+	font-size: 14px;
+	font-weight: bold;
+	margin: 0px 8px 0px 0px;
+ 	width: 32px;
+ }
+.csGrUnIn {
+	background-color: #003333;
+	border-width: 0px;
+	border: none;
+	color: #FFFFFF;
+	float: left;
+	font-size: 14px;
+	font-weight: bold;
+	margin: 0px 6px 0px 0px;
+	width: 26px;
+}
+
+.csGrDtlCont {
+	font-size: 14px;
+}
+.csGrDtl {
+	margin: 2px 0px 0px 0px;
+}
+
+
+.csRevHdr, .csGrHdr {
+	color: #D3E3FE;
+	text-decoration: underline;
+	font-variant: small-caps;
+	padding-bottom: 4px;
+}
+.csRevProdTxt, .csGrProdTxt {
+	float: left;
+	text-decoration: underline;
+	width: 60px;
+}
+.csRevDescTxt, .csGrDescTxt {
+	float: left;
+	text-decoration: underline;
+	width: 150px;
+}
+.csRevQtyTxt, .csGrQtyTxt {
+	float: left;
+	text-decoration: underline;
+}
+.csRevDtl {
+	font-size: 14px;
+}
+.csRevProdDat, .csGrProdDat {
+	float: left;
+	text-align: left;
+	width: 58px;
+}
+.csRevDescDat, .csGrDescDat {
+	float: left;
+	text-align: left;
+	width: 150px;
+}
+.csRevCsDat {
+	float: left;
+	text-align: right;
+	width: 30px;
+}
+.csRevUnDat {
+	float: left;
+	text-align: right;
+	width: 30px;
+}
+.csRevTotDat, .csGrTotDat {
+	float: left;
+	text-align: right;
+	width: 38px;
+}
+.csRevUnderLineSpc {
+	font-size: 6px;
+	float: left;
+	width: 210px;
+}
+.csRevUnderLineDat {
+	border-top-style: double;
+	float: left;
+	font-size: 2px;
+	text-align: right;
+	width: 102px;
+}
+/* 
+ROA 
+*/
+.croaTopHdr {
+	font-size: 18px;
+	text-align: center;
+	color: #D3E3FE;
+	width: 320px;
+	margin: 0px 0px 2px 0px;
+}
+.croaSubHdr {
+	font-size: 18px;
+	text-align: center;
+	color: #D3E3FE;
+	width: 320px;
+	margin: 6px 0px 2px 0px;
+}
+.croa_tkt_sel_cntr {
+	color: #FFF;
+	width: 320px;
+	margin-left: 1px;
+	text-align: center;
+}
+.croa_tkt_sel_tbl {
+	width: 99%;
+	border-collapse: collapse;
+	font-size: 11px;
+}
+.croa_tkt_sel_tbl th {
+	font-size: 14px;
+	font-variant: small-caps;
+	text-decoration: underline;
+	font-weight: normal;
+}
+
+.croa_tkt_sel_tbl th:nth-child(2), 
+.croa_tkt_sel_tbl th:nth-child(5),
+.croa_tkt_sel_tbl td:nth-child(2), 
+.croa_tkt_sel_tbl td:nth-child(5)
+{
+	text-align: right;
+}
+
+.croa_chk_box {
+	margin: 0px;
+}
+.croa_ent_tkt_no {
+	background-color: #003333;
+	border-width: 1px;
+  	color: #EDEEF3;
+  	font-size: 10px;
+	width: 52px;
+}
+.croa_dept_no_sel {
+	background-color: #003333;
+	color: #EDEEF3;
+	font-size: 9px;
+	height: 17px;
+}
+.croa_rpt_sect_sel {
+	background-color: #003333;
+	color: #EDEEF3;
+	font-size: 9px;
+	height: 17px;
+}
+.croa_ent_tkt_amt {
+	background-color: #003333;
+	border-width: 1px;
+	color: #EDEEF3;
+	font-size: 10px;
+	width: 52px;
+}
+
+
+.croa_pay_ent_tbl {
+	width: 75%;
+	border-collapse: collapse;
+	line-height: 15px;
+	font-size: 14px;
+}
+.croa_pay_ent_tbl th {
+	font-size: 14px;
+	font-variant: small-caps;
+	text-align: right;
+	text-decoration: underline;
+	font-weight: normal;
+}
+.croa_pay_ent_tbl td {
+	text-align: right;
+}
+.croa_pay_ent_tbl th:nth-child(1),
+.croa_pay_ent_tbl td:nth-child(1)
+{
+	text-align: center;
+}
+
+
+.croa_ent_chk_no {
+	background-color: #003333;
+	border-width: 1px;
+  	color: #EDEEF3;
+  	font-size: 12px;
+	width: 58px;
+}
+.croa_ent_chk_amt {
+	background-color: #003333;
+	border-width: 1px;
+	color: #EDEEF3;
+	font-size: 12px;
+	width: 58px;
+}
+
+
+.croa_baln_tbl {
+	width: 95%;
+	text-align: center;
+	border-collapse: collapse;
+	line-height: 15px;
+	font-size: 14px;
+}
+.croa_baln_tbl th {
+	font-size: 14px;
+	font-variant: small-caps;
+	text-align: center;
+	text-decoration: underline;
+	font-weight: normal;
+}
+.croa_baln_tbl td {
+	text-align: center;
+}
+
+
+
+
+.croa_chk_enter_hdr {
+	font-size: 16px;
+	color: #FFF;
+	width: 320px;
+	margin-left: 1px;
+	font-variant: small-caps;
+}
+.croa_chk_sel_cntr {
+	font-size: 16px;
+	color: #FFF;
+	width: 320px;
+	margin-left: 1px;
+}
+.croa_new_chk_no_txt {
+	float: left;
+	width: 160px;
+	text-align: right;
+	text-decoration: underline;
+	margin-right: 6px;
+}
+.croa_new_chk_amt_txt {
+	text-align: left;
+	text-decoration: underline;
+}
+.croa_new_chk_no_val {
+	float: left;
+	width: 160px;
+	text-align: right;
+	margin-right: 6px;
+}
+.croa_new_chk_amt_val {
+	text-align: left;
+}
+.croa_cash_txt {
+	float: left;
+	width: 160px;
+	text-align: right;
+	margin-right: 6px;
+}
+.croa_cash_val {
+	text-align: left;
+}
+.chk_baln_cntr {
+	font-size: 14px;
+}
+.croa_baln_txt {
+	float: left;
+	margin: 0px 4px 0px 12px;
+}
+.croa_baln_val {
+	float: left;
+}
+/* 
+Cust Serv Done 
+*/
+.csdnCntn {
+	font-size: 16px;
+	color: #FFF;
+	width: 320px;
+	margin-left: 1px;
+}
+.csdnCustTotTbl {
+	width: 95%;
+	text-align: right;
+	border-collapse: collapse;
+	line-height: 14px;
+}
+.csdnCustTotTbl td {
+	font-size: 14px;
+}
+.csdnCustTotTbl th {
+	font-size: 14px;
+	font-variant: small-caps;
+	color: #D3E3FE;
+}
+.csdnCustTotTxt {
+	color: #D3E3FE;
+	font-size: 18px;
+	font-weight: bold;
+	margin: 6px 10px 6px 10px;
+	text-align: center;
+}
+.csdnCustTotVal {
+	text-align: center;
+	padding-bottom: 12px;
+}
+.csdnMethTxt, .csdnCopiesTxt {
+	font-weight: bold;
+  	float: left;
+	font-size: 18px;
+	text-align: right;
+	color: #D3E3FE;
+}
+.csdnMethTxt {
+	margin: 0px 0px 0px 10px;
+}
+.csdnCopiesTxt {
+	margin: 0px 0px 0px 20px;
+}
+.csdnPayMethSelLine, .csdnCopiesSelLine{
+	padding: 2px 0px 2px 0px;
+	border-top-width: thin;
+	border-top-style: dotted;
+	border-top-color: #D3E3FE;
+}
+.csdnPayMethSel, .csdnCopiesSel {
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	appearance: none;
+	color: #FFFFFF;
+	background-color: #003333;
+	border: none;
+ 	margin: 0px 6px 0px 6px;
+	padding: 4px 6px 4px 6px;
+}
+.csdnPayMethSel{
+  	float: left;
+
+}
+
+.csdnPayMethDat {
+	text-align: left;
+	color: #FFFFFF;
+}
+#i_csrvPick {
+	clear: both;
+	color: #D3E3FE;
+	text-align: center;
+	padding: 6px 0px 0px 0px;
+	width: 320px;
+}
+#i_csPkHdrCt {
+	border-top-width: thin;
+	border-top-style: dotted;
+	border-top-color: #D3E3FE;
+	border-bottom-width: thin;
+	border-bottom-style: dotted;
+	border-bottom-color: #D3E3FE;
+	font-variant: small-caps;
+/*	font-size: 16px; */
+}
+#i_csPkHdrTxt {
+	float: left;
+	padding: 0px 40px 0px 2px;
+	font-variant: small-caps;
+	font-size: 20px;
+	position: relative;
+  /* top: 0px; */
+}
+#i_csPkHdrCeQt {
+	float: left;
+}
+#i_csPkHdrQtTx {
+	float: left;
+	padding: 0px 0px 0px 10px;
+}
+#i_csPkHdrQtQt {
+}
+#i_csPkHdrEnd {
+	clear: both;
+}
+#csPkCt {
+  clear: both;
+  }
+#i_csPkLtCt {
+	float: left;
+	width: 160px;
+}
+#i_csPkRtCt {
+	float: right;
+	width: 160px;
+}
+.csPkDt {
+	clear: both;
+	font-size: 16px;
+	text-align: right;
+}
+.csPkDtCk {
+	float: left;
+	padding-left: 2px;
+}
+.csPkDtPr {
+	float: left;
+	width: 70px;
+}
+.csPkDtPd {
+	float: left;
+	width: 162px;
+	white-space: nowrap;
+	overflow: hidden;
+	padding-left: 6px;
+	text-align: left;
+}
+.csPkDtPn {
+	float: left;
+	width: 70px;
+}
+.csPkDtCs {
+	float: left;
+	width: 28px;
+}
+.csPkDtEa {
+	float: left;
+	width: 28px;
+}

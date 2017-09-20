@@ -1,0 +1,70 @@
+.cselCustTxt, .cselCustDatC100, .cselCustDatC60, .cselBalnTxt {
+	float: left;
+	margin-right: 4px;
+}
+.cselCustDat, .cselCustDatC100, .cselCustDatC60, .cselBalnDat, .cselBalnDatF {
+	font-size: 15px;
+	text-align: left;
+	color: #FFFFFF;
+}
+.cselCustTxt, .cselBalnTxt {
+	font-size: 15px;
+	text-align: right;
+	color: #D3E3FE;
+}
+.cselCustTxt {
+	width: 72px;
+}
+.cselCustDatC100 {
+	width: 100px;
+}
+.cselCustDatC60 {
+	width: 60px;
+}
+.cselCustSel, .cselCustNoSel {
+}
+.cselCustNoSel, .cselSetSelIn {
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	appearance: none;
+	text-align: left;
+	color: #FFFFFF;
+	background-color: #003333;
+	border: none;
+}
+.cselCustNoSel {
+	font-size: 16px;
+	margin-bottom: 2px;
+	width: 236px;
+}
+.cselBalnTxt {
+	width: 76px;
+}
+.cselInfoColLeft {
+	float: left;
+	width: 170px;
+	margin-bottom: 14px;
+}
+.cselInfoColRight {
+	margin-bottom: 14px;
+}
+.cselInfoBot {
+	clear: both;
+	padding-bottom: 14px;
+}
+.cselSetTxt {
+	font-size: 15px;
+	text-align: left;
+	color: #D3E3FE;
+}
+.cselSetSelOut {
+	font-size: 10px;
+	margin-bottom: 8px;
+}
+.cselSetSelIn {
+	font-size: 15px;
+}
+.cselBalnDatF {
+	float: left;
+	width: 90px;
+}

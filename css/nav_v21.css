@@ -1,0 +1,133 @@
+#flyList {
+	width: 318px;
+	position: relative;
+	background-color: #CCCCCC;
+	border: 1px solid #000;
+	margin: 0;
+}
+#menu {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	width: 140px;
+	height: 315px;
+}
+#menu li.level1-li {
+	float: left;
+	width: 140px;
+}
+#menu li.level1-li a.level1-a {
+	display: block;
+	height: 35px;
+	line-height: 35px;
+	padding-left: 5px;
+	text-decoration: none;
+	font-size: 16px;
+	font-family: verdana, arial, sans-serif;
+	color: #fff;
+	border-right: 1px solid #000;
+	font-weight: bold;
+	background: #002;
+	filter: alpha(opacity=60);
+	opacity: 0.6;
+}
+#menu li.sub a.level1-a {
+	
+}
+#menu table {
+	border-collapse: collapse;
+	width: 0;
+	height: 0;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+#menu div.listHolder {
+	position: absolute;
+	left: -9999px;
+	filter: alpha(opacity=80);
+	opacity: 0.8;
+	font-family: verdana, arial, sans-serif;
+	font-weight: bold;
+}
+#menu div.col1 {
+	width: 176px;
+}
+
+#menu div.listCol {
+	width: 168px;
+	float: left;
+
+}
+#menu div.listCol ul {
+	padding: 0px 0px 0px 0px;
+	margin: 0;
+	list-style: none;
+}
+#menu div.listCol ul li {
+	height: 50px;
+	padding: 2px 0px 2px 8px;
+	float:left;
+}
+#menu div.listCol ul li a {
+	display: block;
+	height: 41px;
+	width: 76px;
+	font-size: 12px;
+	text-decoration: none;
+	color: #FFF;
+	background-image: url(../img/Dblue-butt.png);
+	background-repeat: no-repeat;
+	text-align: center;
+	padding-top: 9px;
+}
+#menu div.listCol h5 {
+	float: none;
+	margin: 0;
+	font-size: 12px;
+	line-height: 20px;
+	text-decoration: underline;
+	text-align: center;
+	color: #036;
+	clear: both;
+
+}
+#menu li a:hover {
+	color: #002;
+	filter: alpha(opacity=80);
+	opacity: 0.8;
+}
+#menu li.level1-li:hover > a {
+	background-color: #CCCCCC;
+	color: #002;
+	filter: alpha(opacity=80);
+	opacity: 0.8;
+}
+#menu li.sub a:hover {
+	border-right: 0;
+}
+#menu li.sub:hover > a {
+	border-right: 0;
+}
+#menu :hover div.listHolder {
+	left: 140px;
+	top: -1px;
+}
+#menu div.listCol ul li a:hover {
+	color: #FFF;
+}
+.blankline {
+	width: 140px;
+	height: 35px;
+	background: #002;
+	filter: alpha(opacity=60);
+	opacity: 0.6;
+}
+#pad {
+	width: 140px;
+	height: 30px;
+	background: #002;
+	filter: alpha(opacity=60);
+	opacity: 0.6;
+}
